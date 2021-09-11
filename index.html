@@ -2,13 +2,39 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>
+        Sashkin's Store
+    </title>
+    <link href=' http://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet' type='text/css'>
+    <link href=' http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="bd-example"  style="width: 1000px; margin: 0 auto;">
+    <header>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" style="font-family: Urbanist">
+                    Sashkin's Store
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"aria-haspopup="true" aria-expanded="false" style="font-family: Open Sans">
+                    Разделы сайта
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./catalog.html" style="font-family: Open Sans">
+                        Каталог
+                    </a>
+                    <a class="dropdown-item" href="./about.html" style="font-family: Open Sans">
+                        О Нас
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <div class="bd-example" style="width: 1000px; margin: 0 auto;">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -29,21 +55,21 @@
                 <a href="https://vk.com/music/playlist/270692253_84369047"><img src="static/playlist.png" class="d-block w-100" alt="Плейлист"></a>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Топовый плейлист</h5>
-                    <p>Больше ста треков различных жанров для игры в Доту</p>
+                    <p>Больше ста треков различных жанров для игры в Д♂️ту 2</p>
                 </div>
             </div>
             <div class="carousel-item">
                  <a href="./game_with.html"><img src="static/game_with.png" class="d-block w-100" alt="Игра"></a>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Игра с Сашой</h5>
-                    <p>Вы сможете сыграть одну игру совместно в обычном режиме, Turbo и пр.</p>
+                    <p>Вы сможете сыграть одну игру совместно в обычном режиме и Turbo</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <a href="./busting.html"><img src="static/busting.png" class="d-block w-100" alt="Бустинг"></a>
+                <a href="./pudge_wars.html"><img src="static/pudge_wars.png" class="d-block w-100" alt="Pudge Wars<"></a>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Бустинг</h5>
-                    <p>Быстрое поднятие ммр от лучшего игрока в доту Александра Бульцева</p>
+                    <h5>Pudge Wars</h5>
+                    <p>Игра совместно с Александром Бульцевым в режиме Падж Варс</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -64,5 +90,20 @@
         </a>
       </div>
     </div>
+    <footer >
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <div class="media">
+                    <a href="https://vk.com/kylepristine"><img class="ml-1" src="static/vk_logo.png" style="width: 40px;"></a>
+                    <a href="https://www.youtube.com/channel/UCrE47u8wjSOaGwhJkRFBtfA"><img class="ml-1 mr-2" src="static/yotube_logo.png" style="width: 27px;"></a>
+                    <div class="media-body">
+                        <a style="font-family: Urbanist">
+                            Copyright © 2021 IE 26047
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
