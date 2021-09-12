@@ -1,0 +1,9 @@
+.bd-example{
+  width:1000px;
+}
+.locked {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
