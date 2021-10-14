@@ -92,33 +92,35 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.card-deck{
-  margin: 2%;
+/* Шрифты */
+
+a{
+  font-family: "Montserrat";
 }
 body{
   font-family: 'Montserrat';
 }
-.title{
-  font-family: 'Montserrat Bold';
-  color: #ffba0a;
-}
-.signboard{
-  margin-left: 50%;
-  text-align: right;
-}
-.negativ-signboard{
-  margin-right: 50%;
-  margin-bottom: 4%;
-  background: #2c2c2c;
-  color: #ffba0a;
+h2.player{
   font-family: 'Montserrat Bold';
 }
-.signboard-text{
-  margin-left: 1%;
+.card-deck{
+  margin: 2%;
 }
-.player{
-  font-family: 'Montserrat Bold';
+img.d-block{
+  pointer-events: none;
 }
+
+img.d-block{
+  width: 100%;
+}
+
+.catalog-body{
+  margin-bottom: 10%;
+}
+.carousel-caption{
+  font-family: "Montserrat";
+}
+
 .footer {
   position: absolute;
   left: 0;
@@ -128,28 +130,45 @@ body{
   background: #2c2c2c;
   color: white;
 }
+
+.signboard{
+  margin-left: 50%;
+  text-align: right;
+}
+.signboard-text{
+  margin-left: 1%;
+}
+.negativ-signboard{
+  margin-right: 50%;
+  margin-bottom: 4%;
+  background: #2c2c2c;
+  color: #ffba0a;
+  font-family: 'Montserrat Bold';
+}
+
+.title{
+  font-family: 'Montserrat Bold';
+  color: #ffba0a;
+}
+
+.main{
+   margin: 1% 23% 2% 23%;
+}
+.main-catalog{
+  margin: 3% 5% 4% 5%;
+}
+.main-catalog-back{
+  margin: 1% 10% 5% 10%;
+  background-color: #e8e8e8;
+  background-attachment:fixed;
+}
+
 .media-links{
   margin-top: 0.45%;
   margin-left: -2%;
   color: #ffba0a;
 }
-.main{
-   margin: 1% 23% 2% 23%;
-}
-a{
-  font-family: "Montserrat";
-}
+
 .signboard-middle{
   text-align: center;
-}
-.catalog-body{
-  margin-bottom: 10%;
-}
-img.d-block{
-  pointer-events: none;
-}
-.main-catalog{
-  m
-  background-color: #e8e8e8;
-  background-attachment:fixed;
 }
