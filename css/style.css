@@ -152,7 +152,9 @@ img.d-block{
 }
 
 .main{
+  text-align: center;
    margin: 1% 23% 2% 23%;
+   font-family: "Montserrat"
 }
 .main-catalog{
   margin: 3% 5% 4% 5%;
@@ -169,6 +171,28 @@ img.d-block{
   color: #ffba0a;
 }
 
+.logo{
+  margin-left: 2px;
+  margin-right: 3px;
+}
+
+.card-body{
+  font-family: "Montserrat"
+}
+.prod-card{
+  margin: auto auto auto auto;
+  width: 30%;
+}
 .signboard-middle{
   text-align: center;
+}
+textarea {
+  width: 400px;
+  height: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+iframe.map{
+  width: 500px;
+  height: 500px;
 }
