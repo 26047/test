@@ -123,10 +123,8 @@ img.d-block{
 
 .footer {
   position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  height: 5%;
+  height: 42px;
   background: #2c2c2c;
   color: white;
 }
@@ -154,7 +152,8 @@ img.d-block{
 .main{
   text-align: center;
    margin: 1% 23% 2% 23%;
-   font-family: "Montserrat"
+   font-family: "Montserrat";
+  box-sizing: border-box;
 }
 .main-catalog{
   margin: 3% 5% 4% 5%;
